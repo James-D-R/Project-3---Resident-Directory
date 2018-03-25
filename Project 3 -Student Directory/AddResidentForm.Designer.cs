@@ -44,15 +44,18 @@
             this.label4 = new System.Windows.Forms.Label();
             this.hoursBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.warningLabel = new System.Windows.Forms.Label();
+            this.warningFloor = new System.Windows.Forms.Label();
+            this.IdCheckLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // studentTypeBox
             // 
             this.studentTypeBox.FormattingEnabled = true;
             this.studentTypeBox.Items.AddRange(new object[] {
+            "Worker",
             "Athlete",
-            "Scholarship",
-            "Student"});
+            "Scholarship"});
             this.studentTypeBox.Location = new System.Drawing.Point(145, 176);
             this.studentTypeBox.Name = "studentTypeBox";
             this.studentTypeBox.Size = new System.Drawing.Size(121, 24);
@@ -88,6 +91,7 @@
             this.floorBox.Name = "floorBox";
             this.floorBox.Size = new System.Drawing.Size(121, 24);
             this.floorBox.TabIndex = 3;
+            this.floorBox.Text = "1";
             // 
             // idBox
             // 
@@ -159,6 +163,7 @@
             this.button2.TabIndex = 11;
             this.button2.Text = "Return";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
             // 
@@ -197,11 +202,44 @@
             this.label5.TabIndex = 16;
             this.label5.Text = "Add a New Resident";
             // 
+            // warningLabel
+            // 
+            this.warningLabel.AutoSize = true;
+            this.warningLabel.ForeColor = System.Drawing.Color.Red;
+            this.warningLabel.Location = new System.Drawing.Point(253, 363);
+            this.warningLabel.Name = "warningLabel";
+            this.warningLabel.Size = new System.Drawing.Size(13, 17);
+            this.warningLabel.TabIndex = 17;
+            this.warningLabel.Text = "*";
+            // 
+            // warningFloor
+            // 
+            this.warningFloor.AutoSize = true;
+            this.warningFloor.ForeColor = System.Drawing.Color.Red;
+            this.warningFloor.Location = new System.Drawing.Point(142, 254);
+            this.warningFloor.Name = "warningFloor";
+            this.warningFloor.Size = new System.Drawing.Size(13, 17);
+            this.warningFloor.TabIndex = 18;
+            this.warningFloor.Text = "*";
+            // 
+            // IdCheckLabel
+            // 
+            this.IdCheckLabel.AutoSize = true;
+            this.IdCheckLabel.ForeColor = System.Drawing.Color.Red;
+            this.IdCheckLabel.Location = new System.Drawing.Point(386, 293);
+            this.IdCheckLabel.Name = "IdCheckLabel";
+            this.IdCheckLabel.Size = new System.Drawing.Size(13, 17);
+            this.IdCheckLabel.TabIndex = 19;
+            this.IdCheckLabel.Text = "*";
+            // 
             // AddResidentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(618, 463);
+            this.Controls.Add(this.IdCheckLabel);
+            this.Controls.Add(this.warningFloor);
+            this.Controls.Add(this.warningLabel);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.hoursBox);
             this.Controls.Add(this.label4);
@@ -243,5 +281,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox hoursBox;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label warningLabel;
+        private System.Windows.Forms.Label warningFloor;
+        private System.Windows.Forms.Label IdCheckLabel;
     }
 }
