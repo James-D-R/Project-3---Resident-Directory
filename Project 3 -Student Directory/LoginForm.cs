@@ -23,7 +23,7 @@ namespace Project_3__Student_Directory
         {
             User = UsernameEntry.Text;
             Password = PasswordEntry.Text;
-            if (User == "home" && Password == "1234")
+            if (User == "home" && Password == "1234") //Check for correct username and password
             {
                 InfoLabel.Text = "Click Log in to continue.";
                 SelectionForm select = new SelectionForm();
@@ -41,7 +41,7 @@ namespace Project_3__Student_Directory
         }
     }
 
-    public abstract class Student
+    public abstract class Student //Parent Class
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
