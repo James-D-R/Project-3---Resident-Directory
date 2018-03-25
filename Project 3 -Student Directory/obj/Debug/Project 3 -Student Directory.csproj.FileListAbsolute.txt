@@ -8,3 +8,16 @@ C:\Users\remjamd\Documents\visual studio 2017\Projects\Project 3 -Student Direct
 C:\Users\remjamd\Documents\visual studio 2017\Projects\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project 3 -Student Directory.exe
 C:\Users\remjamd\Documents\visual studio 2017\Projects\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project 3 -Student Directory.pdb
 C:\Users\remjamd\Documents\visual studio 2017\Projects\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project 3 -Student Directory.csprojResolveAssemblyReference.cache
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\bin\Debug\Project 3 -Student Directory.exe.config
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\bin\Debug\Project 3 -Student Directory.exe
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\bin\Debug\Project 3 -Student Directory.pdb
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project 3 -Student Directory.csprojResolveAssemblyReference.cache
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project_3__Student_Directory.AddResidentForm.resources
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project_3__Student_Directory.LoginForm.resources
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project_3__Student_Directory.Properties.Resources.resources
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project_3__Student_Directory.SearchForm.resources
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project_3__Student_Directory.SelectionForm.resources
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project 3 -Student Directory.csproj.GenerateResource.Cache
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project 3 -Student Directory.csproj.CoreCompileInputs.cache
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project 3 -Student Directory.exe
+C:\Users\remjamd\Documents\visual studio 2017\Projects\Homework\Project 3 -Student Directory\Project 3 -Student Directory\obj\Debug\Project 3 -Student Directory.pdb

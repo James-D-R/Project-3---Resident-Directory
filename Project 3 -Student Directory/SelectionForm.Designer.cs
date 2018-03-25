@@ -64,6 +64,7 @@
             this.AddButton.TabIndex = 2;
             this.AddButton.Text = "Add a New Resident";
             this.AddButton.UseVisualStyleBackColor = true;
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // SearchButton
             // 
@@ -73,6 +74,7 @@
             this.SearchButton.TabIndex = 3;
             this.SearchButton.Text = "Resident Search";
             this.SearchButton.UseVisualStyleBackColor = true;
+            this.SearchButton.Click += new System.EventHandler(this.SearchButton_Click);
             // 
             // LogoutButton
             // 
@@ -82,6 +84,7 @@
             this.LogoutButton.TabIndex = 4;
             this.LogoutButton.Text = "Log Out";
             this.LogoutButton.UseVisualStyleBackColor = true;
+            this.LogoutButton.Click += new System.EventHandler(this.LogoutButton_Click);
             // 
             // SelectionForm
             // 
@@ -94,7 +97,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "SelectionForm";
-            this.Text = "SelectionForm";
+            this.Text = "Option Selection";
             this.ResumeLayout(false);
             this.PerformLayout();
 

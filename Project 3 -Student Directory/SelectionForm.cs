@@ -16,5 +16,22 @@ namespace Project_3__Student_Directory
         {
             InitializeComponent();
         }
+
+        private void AddButton_Click(object sender, EventArgs e)
+        {
+            AddResidentForm add = new AddResidentForm();
+            add.ShowDialog();
+        }
+
+        private void SearchButton_Click(object sender, EventArgs e)
+        {
+            SearchForm search = new SearchForm();
+            search.ShowDialog();
+        }
+
+        private void LogoutButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

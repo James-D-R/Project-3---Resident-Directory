@@ -27,6 +27,8 @@ namespace Project_3__Student_Directory
             {
                 InfoLabel.Text = "Click Log in to continue.";
                 SelectionForm select = new SelectionForm();
+                UsernameEntry.Text = "";
+                PasswordEntry.Text = "";
                 select.ShowDialog();
             }
             else
@@ -44,15 +46,15 @@ namespace Project_3__Student_Directory
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Type { get; set; }
-        public int Floor { get; set; }
-        public int ID { get; set; }
-        public int WorkHours { get; set; }
+        public string Floor { get; set; }
+        public string ID { get; set; }
+        public string WorkHours { get; set; }
 
     }
 
     public class Athlete : Student
     {
-        public Athlete (string firstName, string lastName, string type, int floor, int id, int workHours)
+        public Athlete (string firstName, string lastName, string type, string floor, string id, string workHours)
         {
             FirstName = firstName;
             LastName = lastName;
@@ -65,7 +67,7 @@ namespace Project_3__Student_Directory
 
     public class Scholarship : Student
     {
-        public Scholarship (string firstName, string lastName, string type, int floor, int id, int workHours)
+        public Scholarship (string firstName, string lastName, string type, string floor, string id, string workHours)
         {
             FirstName = firstName;
             LastName = lastName;
@@ -78,7 +80,7 @@ namespace Project_3__Student_Directory
 
     public class Worker : Student
     {
-        public Worker (string firstName, string lastName, string type, int floor, int id, int workHours)
+        public Worker (string firstName, string lastName, string type, string floor, string id, string workHours)
         {
             FirstName = firstName;
             LastName = lastName;
