@@ -16,6 +16,7 @@ namespace Project_3__Student_Directory
         public SearchForm()
         {
             InitializeComponent();
+            notFoundLabel.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -97,6 +98,7 @@ namespace Project_3__Student_Directory
             // then display the corresponding data from the object
             for (var i = 0; i < athletes.Length; i++)
             {
+                
                 if ( enteredID == athletes[i].ID)
                 {
                     ResFirstname.Text = athletes[i].FirstName;
@@ -106,10 +108,12 @@ namespace Project_3__Student_Directory
                     ResHours.Text = athletes[i].WorkHours;
                     ResFee.Text = "$1200";
                 }
+                
             }
 
             for (var i = 0; i < scholarships.Length; i++)
             {
+                
                 if (enteredID == scholarships[i].ID)
                 {
                     ResFirstname.Text = scholarships[i].FirstName;
@@ -120,10 +124,12 @@ namespace Project_3__Student_Directory
                     ResFee.Text = "$100";
 
                 }
+               
             }
 
             for (var i = 0; i < workers.Length; i++)
             {
+                
                 if (enteredID == workers[i].ID)
                 {
                     ResFirstname.Text = workers[i].FirstName;
@@ -142,7 +148,11 @@ namespace Project_3__Student_Directory
                     ResFee.Text = "$" + displayFee;
                 }
                 
+                
             }
+            notFoundLabel.Hide();
+
+            
         }
 
         private void button1_Click(object sender, EventArgs e) //Return button

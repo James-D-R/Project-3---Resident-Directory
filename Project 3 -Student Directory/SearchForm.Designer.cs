@@ -215,9 +215,9 @@
             this.notFoundLabel.ForeColor = System.Drawing.Color.Red;
             this.notFoundLabel.Location = new System.Drawing.Point(144, 122);
             this.notFoundLabel.Name = "notFoundLabel";
-            this.notFoundLabel.Size = new System.Drawing.Size(13, 17);
+            this.notFoundLabel.Size = new System.Drawing.Size(165, 17);
             this.notFoundLabel.TabIndex = 17;
-            this.notFoundLabel.Text = "*";
+            this.notFoundLabel.Text = "*Unable to find Resident.";
             // 
             // SearchForm
             // 

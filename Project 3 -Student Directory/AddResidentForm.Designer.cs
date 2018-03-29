@@ -60,6 +60,7 @@
             this.studentTypeBox.Name = "studentTypeBox";
             this.studentTypeBox.Size = new System.Drawing.Size(121, 24);
             this.studentTypeBox.TabIndex = 0;
+            this.studentTypeBox.SelectedIndexChanged += new System.EventHandler(this.studentTypeBox_SelectedIndexChanged);
             // 
             // firstnameBox
             // 
@@ -78,20 +79,11 @@
             // floorBox
             // 
             this.floorBox.FormattingEnabled = true;
-            this.floorBox.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8"});
             this.floorBox.Location = new System.Drawing.Point(145, 223);
             this.floorBox.Name = "floorBox";
             this.floorBox.Size = new System.Drawing.Size(121, 24);
             this.floorBox.TabIndex = 3;
-            this.floorBox.Text = "1";
+            this.floorBox.SelectedIndexChanged += new System.EventHandler(this.floorBox_SelectedIndexChanged);
             // 
             // idBox
             // 
@@ -190,6 +182,7 @@
             this.hoursBox.Size = new System.Drawing.Size(100, 22);
             this.hoursBox.TabIndex = 15;
             this.hoursBox.Text = "0";
+            this.hoursBox.TextChanged += new System.EventHandler(this.hoursBox_TextChanged);
             // 
             // label5
             // 
